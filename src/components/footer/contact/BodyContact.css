@@ -1,0 +1,35 @@
+.left-body-contact {
+    padding: 50px 70px 0 30px;
+    background-color: #fff;
+}
+
+.left-body-contact h1 {
+    font-weight: 700;
+}
+
+.left-body-contact input,
+.left-body-contact textarea {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #e5e5e5;
+    padding-left: 0;
+    outline: none;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.left-body-contact button {
+    height: 46px;
+    width: 46px;
+    border-radius: 23px;
+    background-color: #fff;
+    box-shadow: 0px 15px 47.5px 2.5px rgba(0, 27, 103, 0.3);
+    position: absolute;
+    bottom: 55px;
+    right: 70px;
+}
+
+.right-body-contact {
+    padding-right: 0;
+    padding-left: 0;
+}

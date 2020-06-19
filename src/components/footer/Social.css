@@ -1,0 +1,41 @@
+.icon-social li {
+    list-style: none;
+    color: #8ca0b4;
+    font-size: 18px;
+    width: 46px;
+    height: 46px;
+    border-radius: 23px;
+   border: 1px solid #4fabf5;
+   text-align: center;
+}
+
+.icon-social a {
+    line-height: 46px;
+    display: block;
+    color: #2c324b;
+}
+
+.icon-social li:nth-child(2) {
+    margin: 0 25px;
+}
+
+.icon-social li:nth-child(3) {
+    margin-right: 25px;
+}
+
+.icon-social {
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 45px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    color: #2c324b;
+}
+.copyright a {
+    color: #2c324b;
+    text-decoration: none;
+}

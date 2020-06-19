@@ -1,0 +1,32 @@
+.why-bufet {
+    padding: 110px 90px 60px 10px;
+    background-color: #F5F7FB;
+}
+
+.check-bufet h6{
+    color: #3665C7;
+}
+
+.check-bufet p {
+    color: #232d3f;
+    margin-left: 20px;
+}
+
+.title-bufet {
+    padding-top: 20px;
+}
+
+.title-bufet p,
+.title-bufet h1 {
+    margin-bottom: 30px;
+}
+
+.btn-read {
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    border: 2px solid #3665C7;
+    margin-top: 45px;
+    letter-spacing: 3px;
+    font-size: 15px;
+}

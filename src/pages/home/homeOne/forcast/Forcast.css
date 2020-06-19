@@ -1,0 +1,48 @@
+.icon-forcast {
+    text-align: center;
+    border: 1px solid #dee6f8;
+    padding: 50px 29px;
+    position: relative;
+}
+
+.forcast {
+    padding: 180px 0 130px 0;
+}
+
+.style-icon-forcast {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: #ecf1fc;
+    text-align: center;
+    line-height: 100px;
+    margin: auto;
+    font-size: 37px;
+    color: #5d7dea;
+}
+
+.icon-forcast a {
+    text-decoration: none;
+    color: #2c324b;
+    font-size: 24px;
+}
+
+.btn-forcast {
+    margin-top: 30px;
+}
+
+.icon-forcast p {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #535e72;
+    line-height: 28px;
+}
+
+.icon-forcast h1 {
+    font-size: 98px;
+    position: absolute;
+    top: -21px;
+    left: 0;
+    font-weight: 600;
+    color: #f5f8ff;
+}

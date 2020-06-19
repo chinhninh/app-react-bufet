@@ -1,0 +1,65 @@
+.fact-area {
+    background-image: url("../../../../images/fan-fac-bg.jpg");
+    min-height: 110vh;
+    display: -ms-flexbox;
+    position: relative;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-background-size: cover;
+    width: 100%;
+    padding-top: 300px;
+    z-index: 1;
+    bottom: 100px;
+}
+
+.fact-area:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-image: -webkit-linear-gradient( 120deg, rgb(93,125,234) 0%, rgb(41,173,249) 100%);
+    background-image: -ms-linear-gradient( 120deg, rgb(93,125,234) 0%, rgb(41,173,249) 100%); */
+    background-color: #3B9DEC;
+    opacity: 0.85;
+    /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; */
+    background-size: cover;
+    content: "";
+    z-index: -1;
+}
+
+.content-fact-area {
+    text-align: center;
+}
+
+.content-fact-area h3 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.content-fact-area div {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    background-color: #ecf1fc;
+    text-align: center;
+    line-height: 80px;
+    margin: auto;
+    font-size: 28px;
+    color: #5d7dea;
+}
+
+.content-fact-area p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}

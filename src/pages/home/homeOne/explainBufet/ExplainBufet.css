@@ -1,0 +1,51 @@
+.explain-bufet {
+    padding: 90px 0;
+}
+
+.left-explain-bufet {
+    padding-top: 90px;
+}
+
+.left-explain-bufet p,
+.left-explain-bufet h1 {
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+
+.left-explain-bufet button {
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    border: 2px solid #3665C7;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+
+.left-explain-bufet h1 {
+    color: #2c324b;
+    font-weight: 700;
+    margin-bottom: 27px;
+    line-height: 48px;
+}
+
+.right-explain-bufet .media-body {
+    margin-left: 25px;
+}
+
+.right-explain-bufet img {
+    margin-top: 25px;
+}
+
+.right-explain-bufet p {
+    line-height: 28px;
+    margin-top: 10px;
+}
+
+.right-explain-bufet h3 {
+    font-weight: 700;
+}
+
+.right-explain-bufet .media {
+    margin-top: 30px;
+}

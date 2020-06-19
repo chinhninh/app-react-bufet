@@ -1,0 +1,24 @@
+{
+  "name": "bufet",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "google-map-react": "^1.1.7",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.13.1",
+    "react-headroom": "^3.0.0",
+    "react-icons": "^3.10.0",
+    "react-scripts": "0.9.5",
+    "react-slick": "^0.26.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

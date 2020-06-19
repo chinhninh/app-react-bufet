@@ -1,0 +1,66 @@
+.style-app-mobile {
+    background-color: #F5F7FB;
+    padding: 100px 0;
+}
+
+.app-mobile {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.app-mobile p {
+    font-size: 40px;
+    font-weight: 300;
+    color: #2c324b;
+    line-height: 55px;
+}
+
+.app-mobile strong {
+    color: #5d7dea;
+
+}
+
+/* button */
+
+.btn-android {
+    width: 220px;
+    height: 70px;
+    border-radius: 35px;
+    border: 2px solid #5d7dea;
+    position: relative;
+    float: right;
+}
+
+.btn-android p {
+    margin-top: 15px;
+    line-height: 17px;
+    margin-left: 72px;
+}
+
+.btn-android p strong {
+    font-size: 18px;
+    font-weight: 700;
+    color: #2c324b;
+}
+
+.btn-android p span {
+    font-size: 14px;
+    color: #4e5a6d;
+}
+
+.btn-android a {
+    display: block;
+    text-decoration: none;
+}
+
+.icon-android {
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    font-size: 24px;
+    color: #2c324b;
+}
+
+.btn-apple {
+    float: left;
+}

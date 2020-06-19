@@ -1,0 +1,23 @@
+/* .headroom--unfixed {
+    transition: all 0.5s ease-in-out 0s;
+} */
+
+.header {
+    position: absolute;
+    width: 100%;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+ .headroom--pinned {
+    background-color: #3281D9 ;
+}
+
+.list-button-header {
+    justify-content: flex-end;
+}
+.list-button-header .nav-link {
+    color: #fff !important;
+    padding: 20px 0 20px 35px !important;
+    font-size: 18px;
+    opacity: 0.9;
+}

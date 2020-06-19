@@ -1,0 +1,50 @@
+.advance-features {
+    background-color: #F5F7FB;
+    padding: 90px 0 110px 0;
+}
+
+/* left */
+.left-advance strong {
+    font-size: 36px;
+    color: #595959;
+}
+
+.left-advance div {
+    margin-top: 34px;
+}
+
+.left-advance h5 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 15px 0 10px 0;
+}
+
+.left-advance p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.right-advance {
+    padding-left: 20px;
+}
+
+/* right */
+/* check */
+
+.check-bufet h6{
+    color: #3665C7;
+}
+
+.check-bufet p {
+    color: #232d3f;
+    margin-left: 20px;
+}
+
+.right-advance h1{
+    margin: 55px 0 20px 0;
+    font-weight: 700;
+}
+
+.content-right-advance {
+    margin-bottom: 20px;
+}

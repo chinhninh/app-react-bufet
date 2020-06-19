@@ -1,0 +1,51 @@
+.screen-shots {
+    padding-top: 120px;
+}
+
+.title-screenShot {
+    text-align: center;
+    padding: 0 112px;
+}
+
+.title-screenShot h1 {
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.title-screenShot p {
+    line-height: 24px;
+    margin-top: 15px;
+}
+
+/* slider */
+
+.slider-screen-shot {
+    padding-top: 90px;
+}
+
+.slider-screen-shot div {
+    outline: none;
+}
+
+.slider-screen-shot img {
+    max-width: 100%;
+}
+
+.slider-screen-shot .slick-dots {
+    bottom: -70px;
+}
+
+.slider-screen-shot .slick-dots li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    border: 1px solid rgb( 74, 68, 255 );
+}
+
+.slider-screen-shot .slick-dots li button:before {
+    content: "";
+}
+
+.slider-screen-shot .slick-dots .slick-active {
+    background-color: #3662C5;
+}
