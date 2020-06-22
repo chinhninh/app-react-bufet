@@ -35,8 +35,15 @@
     height: 60px;
     border-radius: 30px;
     border: 2px solid #fff;
+    background: transparent;
     text-align: center;
     line-height: 60px;
+    transition: all .3s;
+}
+
+.btn-download:hover {
+    background: rgb(68,154,195);
+    background: linear-gradient(81deg, rgba(68,154,195,1) 30%, rgba(45,185,253,1) 55%);
 }
 
 .btn-download a {

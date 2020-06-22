@@ -23,12 +23,23 @@
     margin: auto;
     font-size: 37px;
     color: #5d7dea;
+    transition: all .3s ease-in-out;
 }
 
 .icon-forcast a {
     text-decoration: none;
     color: #2c324b;
     font-size: 24px;
+    transition: all .3s ease-in-out;
+}
+
+.icon-forcast:hover .style-icon-forcast {
+    background-color: #5D7DEA;
+    color: #fff;
+}
+
+.icon-forcast:hover a {
+    color: #5D7DEA;
 }
 
 .btn-forcast {

@@ -25,6 +25,8 @@
 .in-content-blog {
     border: 1px solid#d0e2f4;
     border-radius: 5px;
+    box-shadow: none;
+    transition: all .3s;
 }
 
 .in-content-blog img {
@@ -61,6 +63,40 @@
 .btn-blog a {
     text-decoration: none;
     color: #2c324b;
+    transition: all .3s;
+}
+
+/* btn + */
+.in-content-blog:hover {
+    box-shadow: 3px 5px 15px 5px rgba(184,193,198,1);
+}
+
+.in-content-blog:hover .seen-blog {
+    background-color: #0091ea;
+    color: #fff;
+}
+
+.in-content-blog:hover a {
+    color: #0091ea;
+}
+
+.img-blog {
+    position: relative;
+}
+
+.seen-blog {
+    position: absolute;
+    bottom: -13px;
+    right: 32px;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: blue;
+    box-shadow: 3px 5px 15px 5px rgba(184,193,198,1);
+    transition: all 0.3s;
+    text-align: center;
+    line-height: 30px;
 }
 
 @media (max-width: 991px) {

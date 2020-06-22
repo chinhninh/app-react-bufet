@@ -31,6 +31,18 @@
     float: right;
 }
 
+.btn-android:hover {
+    background: rgb(68,154,195);
+    background: linear-gradient(81deg, rgba(68,154,195,1) 30%, rgba(45,185,253,1) 55%);
+    box-shadow: 3px 5px 15px 5px rgba(184,193,198,1) ;
+}
+
+.btn-android:hover .icon-android,
+.btn-android:hover p span,
+.btn-android:hover p strong {
+    color: #fff;
+}
+
 .btn-android p {
     margin-top: 15px;
     line-height: 17px;
@@ -49,7 +61,7 @@
 }
 
 .btn-android a {
-    display: block;
+    display: grid;
     text-decoration: none;
 }
 

@@ -25,7 +25,14 @@ class Blog extends Component {
                     <div className="row content-blog">
                         <div className="col-lg-4 col-12">
                             <div className="in-content-blog">
-                                <img src={blog1} />
+                                <div className="img-blog">
+                                    <a href="#">
+                                        <img src={blog1} />
+                                        <div className="seen-blog">
+                                            +
+                                    </div>
+                                    </a>
+                                </div>
                                 <div className="body-content-blog">
                                     <strong>
                                         <FaUserAlt />
@@ -44,8 +51,15 @@ class Blog extends Component {
                             </div>
                         </div>
                         <div className="col-lg-4 col-12">
-                        <div className="in-content-blog">
-                                <img src={blog2} />
+                            <div className="in-content-blog">
+                                <div className="img-blog">
+                                    <a href="#">
+                                        <img src={blog2} />
+                                        <div className="seen-blog">
+                                            +
+                                    </div>
+                                    </a>
+                                </div>
                                 <div className="body-content-blog">
                                     <strong>
                                         <FaUserAlt />
@@ -64,8 +78,15 @@ class Blog extends Component {
                             </div>
                         </div>
                         <div className="col-lg-4 col-12">
-                        <div className="in-content-blog">
-                                <img src={blog3} />
+                            <div className="in-content-blog">
+                                <div className="img-blog">
+                                    <a href="#">
+                                        <img src={blog3} />
+                                        <div className="seen-blog">
+                                            +
+                                    </div>
+                                    </a>
+                                </div>
                                 <div className="body-content-blog">
                                     <strong>
                                         <FaUserAlt />

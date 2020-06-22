@@ -11,6 +11,13 @@
 
 .left-advance div {
     margin-top: 34px;
+    padding: 5px;
+}
+
+.left-advance div:hover {
+    background: rgb(140,158,255);
+    background: linear-gradient(328deg, rgba(140,158,255,1) 4%, rgba(90,185,232,1) 36%);
+    border-radius: 5px;
 }
 
 .left-advance h5 {

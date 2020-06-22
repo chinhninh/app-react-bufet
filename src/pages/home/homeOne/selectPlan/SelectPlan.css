@@ -40,8 +40,37 @@
     content: "";
     padding: 0px;
     border-radius: 42px;
+    transition: all 0.5s;
     -webkit-transform: rotate(22deg);
     transform: rotate(22deg);
+}
+
+.in-content-plan:hover:after {
+    background: rgb(64,187,249);
+    background: linear-gradient(274deg, rgba(64,187,249,1) 4%, rgba(46,137,182,1) 93%);
+}
+
+.in-content-plan:hover h2 {
+    color: #fff;
+}
+
+.in-content-plan:hover .btn-purchas {
+    background: rgb(68,154,195);
+    background: linear-gradient(81deg, rgba(68,154,195,1) 30%, rgba(45,185,253,1) 55%);
+    box-shadow: 3px 5px 15px 5px rgba(184,193,198,1) ;
+}
+
+.in-content-plan:hover .btn-purchas a {
+    color: #fff;
+}
+
+.in-content-plan {
+    box-shadow: transparent;
+    transition: all 0.5s;
+}
+
+.in-content-plan:hover {
+    box-shadow: 3px 3px 15px 3px rgba(184,193,198,1) ;
 }
 
 .btn-purchas {
@@ -68,6 +97,7 @@
     font-weight: 500;
     position: relative;
     z-index: 10;
+    transition: all .2s;
 }
 
 .body-content-plan {

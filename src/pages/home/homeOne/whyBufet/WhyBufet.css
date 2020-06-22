@@ -33,6 +33,13 @@
     margin-top: 45px;
     letter-spacing: 3px;
     font-size: 15px;
+    /* transition: all .9s; */
+}
+
+.btn-read:hover {
+    background: rgb(68,154,195);
+    background: linear-gradient(81deg, rgba(68,154,195,1) 30%, rgba(45,185,253,1) 55%);
+    box-shadow: 3px 5px 15px 5px rgba(184,193,198,1) ;
 }
 
 @media (max-width: 768px) {

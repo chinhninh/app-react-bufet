@@ -7,12 +7,23 @@
     border-radius: 23px;
    border: 1px solid #4fabf5;
    text-align: center;
+   transition: all .3s;
+}
+
+.icon-social li:hover {
+    box-shadow: 3px 5px 15px 5px rgba(184,193,198,1);
+    background-color: #0091ea;
+}
+
+.icon-social li:hover a {
+    color: #fff;
 }
 
 .icon-social a {
     line-height: 46px;
     display: block;
     color: #2c324b;
+    transition: all .3s;
 }
 
 .icon-social li:nth-child(2) {
