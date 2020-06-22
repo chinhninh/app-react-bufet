@@ -21,14 +21,17 @@
 
 .slider-screen-shot {
     padding-top: 90px;
-}
-
-.slider-screen-shot div {
-    outline: none;
+    position: relative;
 }
 
 .slider-screen-shot img {
     max-width: 100%;
+    margin: auto;
+}
+
+.slider-screen-shot .img-screen-shot {
+    outline: none;
+    padding: 0 15px;
 }
 
 .slider-screen-shot .slick-dots {
@@ -48,4 +51,10 @@
 
 .slider-screen-shot .slick-dots .slick-active {
     background-color: #3662C5;
+}
+
+@media (max-width: 768px) {
+    .title-screenShot {
+        padding: 0 10px;
+    }
 }

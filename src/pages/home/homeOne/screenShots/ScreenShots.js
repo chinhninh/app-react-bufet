@@ -16,7 +16,23 @@ class ScreenShots extends Component {
             infinite: false,
             speed: 500,
             slidesToShow: 4,
-            slidesToScroll: 4
+            slidesToScroll: 4,
+            responsive: [
+                {
+                  breakpoint: 569,
+                  settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                  }
+                },
+                {
+                  breakpoint: 414,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                  }
+                }
+              ]
         };
 
         return (
@@ -35,31 +51,31 @@ class ScreenShots extends Component {
                     {/* slider */}
                     <div className="slider-screen-shot">
                         <Slider {...settings}>
-                            <div>
+                            <div className="img-screen-shot">
                                 <img src={screenShot1} />
                             </div>
-                            <div>
+                            <div className="img-screen-shot">
                                 <img src={screenShot2} />
                             </div>
-                            <div>
+                            <div className="img-screen-shot">
                                 <img src={screenShot3} />
                             </div>
-                            <div>
+                            <div className="img-screen-shot">
                                 <img src={screenShot4} />
                             </div>
-                            <div>
+                            <div className="img-screen-shot">
                                 <img src={screenShot2} />
                             </div>
-                            <div>
+                            <div className="img-screen-shot">
                                 <img src={screenShot1} />
                             </div>
-                            <div>
+                            <div className="img-screen-shot">
                                 <img src={screenShot4} />
                             </div>
-                            <div>
+                            <div className="img-screen-shot">
                                 <img src={screenShot3} />
                             </div>
-                            <div>
+                            <div className="img-screen-shot">
                                 <img src={screenShot2} />
                             </div>
                         </Slider>

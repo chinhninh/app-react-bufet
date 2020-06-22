@@ -17,7 +17,7 @@ class SelectPlan extends Component {
                     </p>
                     </div>
                     <div className="row">
-                        <div className="col-md-4 col-12 content-plan">
+                        <div className="col-lg-4 col-12 content-plan">
                             <div className="in-content-plan">
                                 <h2>Basic</h2>
                                 <div className="body-content-plan">
@@ -27,8 +27,7 @@ class SelectPlan extends Component {
                                     Webmail Support
                             </div>
                                 <div className="price">
-                                    <i>$</i>
-                                    <strong>25 </strong>
+                                    <strong><i>$</i>25 </strong>
                                     <span>/Annualy</span>
                                 </div>
                                 <div className="btn-purchas">
@@ -36,7 +35,7 @@ class SelectPlan extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4 col-12 content-plan">
+                        <div className="col-lg-4 col-12 content-plan">
                             <div className="in-content-plan">
                                 <h2>Standard</h2>
                                 <div className="body-content-plan">
@@ -46,8 +45,7 @@ class SelectPlan extends Component {
                                     Webmail Support
                             </div>
                                 <div className="price">
-                                    <i>$</i>
-                                    <strong>25 </strong>
+                                <strong><i>$</i>25 </strong>
                                     <span>/Annualy</span>
                                 </div>
                                 <div className="btn-purchas">
@@ -55,7 +53,7 @@ class SelectPlan extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4 col-12 content-plan">
+                        <div className="col-lg-4 col-12 content-plan">
                             <div className="in-content-plan">
                                 <h2>Premium</h2>
                                 <div className="body-content-plan">
@@ -65,8 +63,7 @@ class SelectPlan extends Component {
                                     Webmail Support
                             </div>
                                 <div className="price">
-                                    <i>$</i>
-                                    <strong>25 </strong>
+                                <strong><i>$</i>25 </strong>
                                     <span>/Annualy</span>
                                 </div>
                                 <div className="btn-purchas">

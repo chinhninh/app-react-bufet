@@ -14,6 +14,7 @@
     -webkit-background-size: cover;
     width: 100%;
     padding-top: 300px;
+    padding-bottom: 50px;
     z-index: 1;
     bottom: 100px;
 }
@@ -62,4 +63,28 @@
     font-size: 20px;
     font-weight: 600;
     margin-top: 30px;
+}
+
+@media (max-width: 1024px) {
+    .fact-area {
+        min-height: 50vh;
+    }
+}
+
+@media (max-width: 812px) {
+    .fact-area {
+        padding-top: 352px;
+    }
+}
+
+@media (max-width: 768px) {
+    .fact-area {
+        min-height: 70vh;
+    }
+}
+
+@media (max-width: 576px) {
+    .content-fact-area {
+        padding-top: 32px;
+    }
 }

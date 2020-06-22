@@ -6,7 +6,11 @@
 }
 
 .forcast {
-    padding: 180px 0 130px 0;
+    padding: 100px 0 130px 0;
+}
+
+.forcast .col-md-4 {
+    margin-top: 80px;
 }
 
 .style-icon-forcast {

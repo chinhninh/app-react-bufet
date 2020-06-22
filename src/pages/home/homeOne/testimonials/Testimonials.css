@@ -69,3 +69,15 @@
 .slider-testimonials .slick-slide {
     padding: 40px 15px;
 }
+
+@media (max-width: 768px) {
+    .title-testimonials {
+        padding: 0 15px;
+    }
+
+    .point-profile {
+        top: 1%;
+        font-size: 45px;
+        right: 3%;
+    }
+}
