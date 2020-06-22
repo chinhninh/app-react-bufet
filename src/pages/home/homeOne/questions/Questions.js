@@ -19,10 +19,10 @@ class Questions extends Component {
                         </p>
                     </div>
                     <div className="row">
-                        <div className="col-md-6 col-12 img-mobile2">
+                        <div className="col-lg-6 col-12 img-mobile2">
                             <img src={mobile1} />
                         </div>
-                        <div className="col-md-6 col-12 right-question">
+                        <div className="col-lg-6 col-12 right-question">
                             <div className="ask-question">
                                 <h4>
                                     1. Sedeiusmod tempor inccsetetur aliquatraiy?

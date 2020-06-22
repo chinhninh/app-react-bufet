@@ -62,3 +62,23 @@
     text-decoration: none;
     color: #2c324b;
 }
+
+@media (max-width: 991px) {
+    .in-content-blog img {
+        width: 100%;
+    }
+
+    .content-blog {
+        padding: 20px 0 100px 0;
+    }
+
+    .in-content-blog {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .title-Blog {
+        padding: 0 15px;
+    }
+}

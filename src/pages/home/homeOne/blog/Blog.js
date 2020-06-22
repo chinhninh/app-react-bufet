@@ -23,7 +23,7 @@ class Blog extends Component {
                     </div>
                     {/* content */}
                     <div className="row content-blog">
-                        <div className="col-md-4 col-12">
+                        <div className="col-lg-4 col-12">
                             <div className="in-content-blog">
                                 <img src={blog1} />
                                 <div className="body-content-blog">
@@ -43,7 +43,7 @@ class Blog extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4 col-12">
+                        <div className="col-lg-4 col-12">
                         <div className="in-content-blog">
                                 <img src={blog2} />
                                 <div className="body-content-blog">
@@ -63,7 +63,7 @@ class Blog extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4 col-12">
+                        <div className="col-lg-4 col-12">
                         <div className="in-content-blog">
                                 <img src={blog3} />
                                 <div className="body-content-blog">

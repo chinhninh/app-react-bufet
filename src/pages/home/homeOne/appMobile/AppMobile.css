@@ -64,3 +64,27 @@
 .btn-apple {
     float: left;
 }
+
+@media (max-width: 768px) {
+
+    .btn-android {
+        float: none;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .btn-apple {
+        float: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .app-mobile p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .style-app-mobile {
+        padding: 50px 0;
+    }
+}

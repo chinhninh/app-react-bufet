@@ -15,7 +15,7 @@ class AppMobile extends Component {
                 </p>
                 </div>
                 <div className="btn-app-mobile row">
-                    <div className="col-6">
+                    <div className="col-md-6 col-12">
                         <div className="btn-android">
                             <a href="#">
                                 <span className="icon-android"><FaAndroid /></span>
@@ -26,7 +26,7 @@ class AppMobile extends Component {
                             </a>
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-md-6 col-12">
                         <div className="btn-android btn-apple">
                             <a href="#">
                                 <span className="icon-android"><FaApple /></span>

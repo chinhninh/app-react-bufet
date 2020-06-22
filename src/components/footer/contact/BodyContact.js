@@ -19,18 +19,20 @@ class BodyContact extends Component {
             <div>
                 <div className="container">
                     <div className=" row">
-                        <div className="col-5 left-body-contact">
+                        <div className="col-md-5 col-12 left-body-contact">
                             <h1>Contact Us</h1>
                             <form>
                                 <input type="text" placeholder="Your Name*" />
                                 <input type="text" placeholder="Email Address**" />
                                 <input type="text" placeholder="Your Website*" />
+                                <div style={{position: "relative"}}>
                                 <textarea id="exampleFormControlTextarea1" rows="3" placeholder="Write message*" />
                                 <button className="btn"><FaSeedling /></button>
+                                </div>
                             </form>
                         </div>
-                        <div className="col-7 right-body-contact">
-                            <div style={{ height: '80vh', width: '100%' }}>
+                        <div className="col-md-7 col-12 right-body-contact">
+                            <div className="style-map">
                                 <GoogleMapReact
                                     bootstrapURLKeys={{ key: "AIzaSyCaoyj1X62QaL4z3HOR4VjnXrPjwY4oIag" }}
                                     defaultCenter={this.props.center}

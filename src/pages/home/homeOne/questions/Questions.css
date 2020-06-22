@@ -1,11 +1,14 @@
 .questions img {
     max-width: 100%;
-    position: absolute;
 }
 
 .img-mobile2 {
     overflow: hidden;
     padding-bottom: 50px;
+}
+
+.img-mobile2 img {
+    position: absolute;
 }
 
 .title-questions {
@@ -44,4 +47,16 @@
 
 .ask-question h4 span {
     float: right;
+}
+
+@media (max-width: 992px) {
+    .img-mobile2 {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .title-questions {
+        padding: 0 15px;
+    }
 }
