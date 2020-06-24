@@ -1,0 +1,128 @@
+/* menu mobile */
+/* Position and sizing of burger button */
+.style-menu-mobile img {
+    max-width: 100%;
+}
+
+.style-menu-mobile {
+    display: none;
+}
+
+.style-logo {
+    /* text-align: center; */
+    padding: 15px 0;
+    background-color: transparent;
+    position: absolute;
+    /* width: 100%; */
+    transition: all 0.5s ease-in-out 0s;
+    z-index: 1;
+}
+
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    right: 36px;
+    top: 19px;
+  }
+   
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #373a47;
+  }
+   
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #a90000;
+  }
+   
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+   
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #bdc3c7;
+  }
+   
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+  }
+   
+  /* General sidebar styles */
+  .bm-menu {
+    background: #373a47;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+  }
+   
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+   
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+  }
+   
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  }
+   
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  /* style content menu mobile */
+  .bm-item-list {
+    color: #fff;
+  }
+
+  .metismenu-item a {
+    color: #fff;
+  }
+
+  .metismenu {
+    background-color: transparent;
+    position: unset;
+  }
+
+  .metismenu-container {
+    border: none;
+  }
+
+  .bm-item {
+    display: unset;
+  }
+
+  I.metismenu-icon {
+    width: unset;
+  }
+
+  .bm-item-list {
+    padding: 0;
+  }
+  
+
+  .bm-menu {
+    background: rgb(64,187,249);
+background: linear-gradient(274deg, rgba(64,187,249,1) 4%, rgba(46,137,182,1) 57%);
+}
+
+
+@media (max-width:991px) {
+    .style-menu-mobile {
+        display: block;
+    }
+}

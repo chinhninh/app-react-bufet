@@ -5,6 +5,7 @@
 
 .img-mobile2 img {
     max-width: 100%;
+    position: unset !important;
 }
 
 .check-bufet h6{

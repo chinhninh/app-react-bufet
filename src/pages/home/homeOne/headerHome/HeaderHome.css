@@ -19,6 +19,10 @@
     line-height: 75px;
     margin-bottom: 46px;
     color: #fff;
+    visibility: visible;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-name: title-header-home;
 }
 
 .header-home p {

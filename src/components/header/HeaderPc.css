@@ -1,0 +1,120 @@
+/* .headroom--unfixed {
+    transition: all 0.5s ease-in-out 0s;
+} */
+
+.header {
+    position: absolute;
+    width: 100%;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+ .headroom--pinned {
+    background-color: #3281D9 ;
+}
+
+.list-button-header {
+    justify-content: flex-end;
+}
+.list-button-header .nav-link {
+    color: #fff !important;
+    padding: 20px 0 20px 35px !important;
+    font-size: 18px;
+    /* opacity: 0.9; */
+}
+
+/* menu home */
+.header .nav-link:hover {
+    color: black !important;
+}
+
+.btn-home {
+    position: relative;
+}
+
+.menu-btn-home {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: transform .3s ease;
+    background-color: #3281D9;
+    position: absolute;
+    /* top: 53px; */
+    right: -100px;
+    padding-left: 0;
+    width: 200px;
+    z-index: 99999;
+    box-shadow: 0px 15px 50px 0px rgba(0, 27, 103, 0.3);
+    border-radius: 4px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.menu-btn-home:before {
+    content: "";
+    display: block;
+    background: transparent;
+    height: 25px;
+    position: absolute;
+    top: -25px;
+    width: 100%;
+    left: 0;
+}
+
+.btn-home:hover .menu-btn-home {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(29px);
+}
+
+.menu-btn-home a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-btn-home li:hover {
+    background-color: #3281D9;
+}
+
+.menu-btn-home a:hover {
+    color: black;
+}
+
+.btn-home:hover span {
+    color: black;
+}
+
+.btn-home span svg {
+    -webkit-transition: .25s ease;
+    transition: .25s ease;
+}
+
+.btn-home:hover svg {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+
+/* btn mobile */
+#basic-nav-dropdown {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    #basic-nav-dropdown {
+        display: block;
+    }
+
+    .btn-home {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+}
+
+
+

@@ -10,11 +10,11 @@ class WhyBufet extends Component {
             <div className="why-bufet">
                 <div className="row">
                     {/* image mobile 2 */}
-                    <div className="col-md-6 col-12 img-mobile2">
+                    <div className="col-lg-6 col-12 img-mobile2">
                         <img src={mobile2} />
                     </div>
                     {/* content why bufet */}
-                    <div className="col-md-6 col-12">
+                    <div className="col-lg-6 col-12">
                         <div className="title-bufet">
                             <h1>Why Bufet?</h1>
                             <p>
