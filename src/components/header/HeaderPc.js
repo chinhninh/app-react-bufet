@@ -37,12 +37,12 @@ class Header extends Component {
                                     </ul>
                          </Nav.Link>
 
-                        <Nav.Link href="#home">About</Nav.Link>
-                        <Nav.Link href="#link">Features</Nav.Link>
-                        <Nav.Link href="#home">ScreenShots</Nav.Link>
-                        <Nav.Link href="#link">Pricing</Nav.Link>
+                        <Nav.Link href="#whyBufet">About</Nav.Link>
+                        <Nav.Link href="#features">Features</Nav.Link>
+                        <Nav.Link href="#screenShots">ScreenShots</Nav.Link>
+                        <Nav.Link href="#slectPlan">Pricing</Nav.Link>
                          {/* btn blog pc */}
-                        <Nav.Link href="#" className="btn-home">
+                        <Nav.Link href="#blog" className="btn-home">
                            <span>Blog <i><FaAngleDown/></i></span>
                             <ul class="menu-btn-home">
                                         <li class="dropdown-item"><a href="archive-tech.html">Home one</a>
@@ -69,7 +69,7 @@ class Header extends Component {
                                         </li>
                                     </ul>
                          </Nav.Link>
-                        <Nav.Link href="#link">Contact</Nav.Link>
+                        <Nav.Link href="#contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

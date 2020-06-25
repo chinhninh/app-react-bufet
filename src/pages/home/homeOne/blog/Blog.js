@@ -6,10 +6,12 @@ import blog2 from '../../../../images/blog-2.jpg';
 import blog3 from '../../../../images/blog-3.jpg';
 import { FaUserAlt } from 'react-icons/fa';
 import { FaComment } from 'react-icons/fa';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 class Blog extends Component {
     render() {
         return (
+            <ScrollableAnchor id={'blog'}>
             <div className="blog">
                 <div className="container">
                     <div className="title-Blog">
@@ -107,6 +109,7 @@ class Blog extends Component {
                     </div>
                 </div>
             </div>
+            </ScrollableAnchor>
         );
     }
 }

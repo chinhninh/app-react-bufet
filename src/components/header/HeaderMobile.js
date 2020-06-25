@@ -38,19 +38,19 @@ class Header extends Component {
             },
             {
                 label: 'About',
-                to: '#another-link',
+                to: '#whyBufet',
             },
             {
                 label: 'Features',
-                to: '#another-link',
+                to: '#features',
             },
             {
                 label: 'ScreenShots',
-                to: '#another-link',
+                to: '#screenShots',
             },
             {
                 label: 'Pricing',
-                to: '#another-link',
+                to: '#slectPlan',
             },
             {
                 label: 'Blog',

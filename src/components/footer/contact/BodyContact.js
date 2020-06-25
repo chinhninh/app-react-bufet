@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './BodyContact.css';
 import { FaSeedling } from 'react-icons/fa';
 import GoogleMapReact from 'google-map-react';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
@@ -16,6 +17,7 @@ class BodyContact extends Component {
 
     render() {
         return (
+            <ScrollableAnchor id={'contact'}>
             <div>
                 <div className="container">
                     <div className=" row">
@@ -49,6 +51,7 @@ class BodyContact extends Component {
                     </div>
                 </div>
             </div>
+            </ScrollableAnchor>
         );
     }
 }

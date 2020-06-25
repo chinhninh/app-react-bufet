@@ -21,6 +21,13 @@
 }
 
 /* button */
+.animation-btn-left {
+    transform: translateX(-100px);
+}
+
+.animation-btn-right {
+    transform: translateX(50px);
+}
 
 .btn-android {
     width: 220px;

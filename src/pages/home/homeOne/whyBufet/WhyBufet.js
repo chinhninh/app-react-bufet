@@ -3,16 +3,21 @@ import './WhyBufet.css';
 import mobile2 from '../../../../images/mobile-2.png';
 import { FaCheck } from 'react-icons/fa';
 import { Media } from 'react-bootstrap';
+import QueueAnim from 'rc-queue-anim';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 class WhyBufet extends Component {
     render() {
         return (
+            <ScrollableAnchor id={'whyBufet'}>
             <div className="why-bufet">
                 <div className="row">
                     {/* image mobile 2 */}
-                    <div className="col-lg-6 col-12 img-mobile2">
+                    <QueueAnim animConfig={{ translateX: [500, 0] }} className="animation-left-img col-lg-6 col-12" interval={100} duration={1000}>
+                    <div key="1" className=" img-mobile2">
                         <img src={mobile2} />
                     </div>
+                    </QueueAnim>
                     {/* content why bufet */}
                     <div className="col-lg-6 col-12">
                         <div className="title-bufet">
@@ -73,6 +78,7 @@ class WhyBufet extends Component {
                     </div>
                 </div>
             </div>
+            </ScrollableAnchor>
         );
     }
 }

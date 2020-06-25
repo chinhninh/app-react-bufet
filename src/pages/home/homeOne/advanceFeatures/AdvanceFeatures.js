@@ -6,10 +6,12 @@ import { FaVectorSquare } from 'react-icons/fa';
 import { FaMagnet } from 'react-icons/fa';
 import { FaCheck } from 'react-icons/fa';
 import { Media } from 'react-bootstrap';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 class AdvanceFeatures extends Component {
     render() {
         return (
+            <ScrollableAnchor id={'features'}>
             <div className="advance-features">
                 <div className="container">
                     <div className="row">
@@ -90,6 +92,7 @@ class AdvanceFeatures extends Component {
                     </div>
                 </div>
             </div>
+            </ScrollableAnchor>
         );
     }
 }

@@ -8,6 +8,7 @@ import screenShot1 from '../../../../images/screenshort-1.jpg';
 import screenShot2 from '../../../../images/screenshort-2.jpg';
 import screenShot3 from '../../../../images/screenshort-3.jpg';
 import screenShot4 from '../../../../images/screenshort-4.jpg';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 class ScreenShots extends Component {
     render() {
@@ -36,6 +37,7 @@ class ScreenShots extends Component {
         };
 
         return (
+            <ScrollableAnchor id={'screenShots'}>
             <div className="screen-shots">
                 <div className="container">
                     <div className="title-screenShot">
@@ -82,6 +84,7 @@ class ScreenShots extends Component {
                     </div>
                 </div>
             </div>
+            </ScrollableAnchor>
         );
     }
 }

@@ -20,9 +20,6 @@
     margin-bottom: 46px;
     color: #fff;
     visibility: visible;
-    animation-duration: 2s;
-    animation-delay: 1s;
-    animation-name: title-header-home;
 }
 
 .header-home p {
@@ -32,6 +29,15 @@
     line-height: 28px;
     width: 60%;
     color: #fff;
+    /* animation-delay: 0.5s; */
+}
+
+.animation-under-title {
+    transform: translateX(-100px);
+}
+
+.animation-title {
+    transform: translateY(50px);
 }
 
 .btn-download {
@@ -66,7 +72,7 @@
 .img-header-home {
     position: absolute;
     top: 17%;
-    right: -100px;
+    right: -150px;
 }
 
 /* responsive */

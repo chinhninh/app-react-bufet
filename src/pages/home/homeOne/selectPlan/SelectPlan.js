@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import './SelectPlan.css';
 import sectionIcon from '../../../../images/section-icon.png';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 class SelectPlan extends Component {
     render() {
         return (
+            <ScrollableAnchor id={'slectPlan'}>
             <div className="select-plan">
                 <div className="container">
                     <div className="title-select-plan">
@@ -74,6 +76,7 @@ class SelectPlan extends Component {
                     </div>
                 </div>
             </div>
+            </ScrollableAnchor>
         );
     }
 }
