@@ -2,8 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
+import {createStore} from 'redux';
+import {Provider} from 'react-redux';
+import allReducers from './redux/reducers/index';
+import questionReducer from './redux/reducers/questionReducer/questionReducer'
+
+const store = createStore(allReducers)
 
 ReactDOM.render(
-  <App />,
+  <Provider store = {store}>
+  <App />
+  </Provider>,
   document.getElementById('root')
 );

@@ -5,6 +5,7 @@ import { FaCheck } from 'react-icons/fa';
 import { Media } from 'react-bootstrap';
 import QueueAnim from 'rc-queue-anim';
 import ScrollableAnchor from 'react-scrollable-anchor';
+import ReactWOW from 'react-wow';
 
 class WhyBufet extends Component {
     render() {
@@ -13,11 +14,11 @@ class WhyBufet extends Component {
             <div className="why-bufet">
                 <div className="row">
                     {/* image mobile 2 */}
-                    <QueueAnim animConfig={{ translateX: [500, 0] }} className="animation-left-img col-lg-6 col-12" interval={100} duration={1000}>
-                    <div key="1" className=" img-mobile2">
+                    <ReactWOW delay='0.5s' animation='fadeInLeft'>
+                    <div className=" img-mobile2">
                         <img src={mobile2} />
                     </div>
-                    </QueueAnim>
+                    </ReactWOW>
                     {/* content why bufet */}
                     <div className="col-lg-6 col-12">
                         <div className="title-bufet">

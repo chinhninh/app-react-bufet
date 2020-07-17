@@ -12,12 +12,14 @@ import SelectPlan from './selectPlan/SelectPlan';
 import Questions from './questions/Questions';
 import Blog from './blog/Blog';
 import AppMobile from './appMobile/AppMobile';
+import ScollToTop from './scollToTop/ScollToTop';
 
 class HomeOne extends Component {
     render() {
         return (
             <div>
                 <HeaderHome/>
+                <ScollToTop/>
                 <Forcast/>
                 <WhyBufet/>
                 <ExplainBufet/>
